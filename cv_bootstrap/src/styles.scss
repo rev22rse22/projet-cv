@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+/* --- NOUVEAU CODE (La transformation) --- */
+
+// 1. On définit tes couleurs dans des variables (C'est plus propre)
+$ma-couleur-dark: #1a2b3c;  // <-- Mets ici le code exact que tu avais dans .darkZone
+$ma-couleur-light: #d3d3d3; // <-- Mets ici le code exact que tu avais dans .lightZone
+
+// 2. On dit à Bootstrap d'utiliser tes couleurs
+.primary {
+    background-color: $ma-couleur-dark !important;
+    border-bottom: #d3d3d3 2px solid !important;
+}
+
+.secondary {
+    background-color: $ma-couleur-light !important;
+    border-bottom: #1a2b3c 2px solid !important;
+}
+
+.primary h1{
+    font-size: 38px;
+    border-bottom: solid 2px $ma-couleur-light !important; 
+}
+
+.secondary h1{
+    font-size: 38px;
+    border-bottom: solid 2px $ma-couleur-dark;
+}
+
+.container {
+    border: solid 2px $ma-couleur-dark ;
+}
+
+
