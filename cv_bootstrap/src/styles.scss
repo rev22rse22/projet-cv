@@ -1,10 +1,10 @@
-/* --- NOUVEAU CODE (La transformation) --- */
 
-// 1. On définit tes couleurs dans des variables (C'est plus propre)
-$ma-couleur-dark: #1a2b3c;  // <-- Mets ici le code exact que tu avais dans .darkZone
-$ma-couleur-light: #d3d3d3; // <-- Mets ici le code exact que tu avais dans .lightZone
 
-// 2. On dit à Bootstrap d'utiliser tes couleurs
+
+$ma-couleur-dark: #1a2b3c;  
+$ma-couleur-light: #d3d3d3; 
+
+
 .primary {
     background-color: $ma-couleur-dark !important;
     border-bottom: #d3d3d3 2px solid !important;
